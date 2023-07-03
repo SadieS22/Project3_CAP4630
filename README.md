@@ -4,7 +4,11 @@ Description and Run Instructions: This is Project 3 for CAP 4630. This is the Tr
 
 Sources:
 https://www.youtube.com/watch?v=8lYKzj470zc
+
 http://www.scholarpedia.org/article/Ant_colony_optimization
+
 https://github.com/yammadev/aco-tsp
+
 https://github.com/nishnash54/TSP_ACO
+
 https://github.com/rochakgupta/aco-tsp
