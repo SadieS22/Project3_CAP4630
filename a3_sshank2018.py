@@ -82,8 +82,8 @@ pheromone = [[0] * citynum for _ in range(citynum)]
 #When the values need to be updated later on, it will update both [i][j] and [j][i]
 for i in range(citynum):
     for j in range(citynum):
-          pheromone [i][j] = 0
-          pheromone [j][i] = 0
+          pheromone[i][j] = 0
+          pheromone[j][i] = 0
 
 #Inputting the number of iterations. 
 numiterate = int(input("Enter the number of iterations: "))
@@ -231,7 +231,7 @@ def plot_path(city_list, path):
     plt.figure()
     plt.scatter(x, y, color='red', zorder=2)
 
-    #This plots the actual path
+    #I am actually plotting the paths here. 
     for i in range(len(path) - 1):
         city1 = path[i]
         city2 = path[i + 1]
